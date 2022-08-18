@@ -32,17 +32,10 @@
     width: 150px;
     height: 150px;
     height: 50px;
-    border: 1px solid sienna;
     border-radius: 5px;
     align-items: center;
     background-color: darkseagreen;
-
-}
-
-#clear,
-#delete{
     border: none;
-    background-color: darkseagreen;
    cursor: pointer;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size:medium;
@@ -66,52 +59,53 @@
 
 }
 
-#number7,
-#number8,
-#number9,
-#divide,
-#number4,
-#number5,
-#number6,
-#multiply,
-#number1,
-#number2,
-#number3,
-#substrate,
-#decimal,
-#number0,
-#equal_sign,
-#add{
+#number7,#no7,
+#number8,#no8,
+#number9,#no9,
+#divide,#op_divide,
+#number4,#no4,
+#number5,#no5,
+#number6,#no6,
+#multiply,#op_multiply,
+#number1,#no1,
+#number2,#no2,
+#number3,#no3,
+#substrate,#op_sub,
+#decimal,#dec,
+#number0,#no0,
+#equal_sign,#op_equal,
+#add,#op_add{
     width: 70px;
-    height: 42px;
-    border: 2px solid sienna;
+    height: 60px;
+    border: none;
     align-items: flex-start;
     margin-right: 10px;
     border-radius: 5px;
     background-color: white;
     text-align: center;
-    padding-top: 29px;;
+    padding-top: 2px;
+    font-size:large;
 }
 
-#no7,
-#no8,
-#no9,
-#op_divide,
-#no4,
-#no5,
-#no6,
-#op_multiply,
-#no1,
-#no2,
-#no3,
-#op_sub,
-#dec,
-#no0,
-#op_equal,
-#op_add{
-border: none;
-background-color: white;
-font-weight: bold;
-font-size:large;
+#number7,#no7:hover,
+#number8,#no8:hover,
+#number9,#no9:hover,
+#divide,#op_divide:hover,
+#number4,#no4:hover,
+#number5,#no5:hover,
+#number6,#no6:hover,
+#multiply,#op_multiply:hover,
+#number1,#no1:hover,
+#number2,#no2:hover,
+#number3,#no3:hover,
+#substrate,#op_sub:hover,
+#decimal,#dec:hover,
+#number0,#no0:hover,
+#equal_sign,#op_equal:hover,
+#add,#op_add:hover{
+    background-color: aqua;
+    cursor: pointer;
 }
+
+
 
